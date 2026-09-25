@@ -37,10 +37,18 @@ print(tl1)
 print("Task 1.7")
 print(tl1[1:4]) 
 
-### Task 1.8: Create and Display a new reversed list on your previous list, starting from the end.
+### Task 1.8A: Create and Display a new reversed list of your previous list, starting from the end.
 print("Task 1.8")
 tl1.reverse()
 print(tl1)
+
+### Task1.8B: Not using reverse
+# First re-reversing to get into original order
+tl1.reverse()
+# Applying new reversion
+tel1 = tl1[::-1]
+print(tel1)
+
 
 ### Task 1.9: Add the ten integers from 11 to 20 at the end of your list.
 print("Task 1.9")

@@ -1,11 +1,11 @@
-### Write a program that deletes duplicated elements in a list
+### Task 1.16 - Write a program that deletes duplicated elements in a list
 
 ## Lists to Use
 example_list_1 = [1,1,1,1,1,2,2,2,2,2]
 example_list_2 = [42, "42", 42.0, 21+21, 42*10/10]
 
 # List to Test
-test_list = example_list_1
+test_list = example_list_2
 
 # Empty List to store values (without duplication)
 non_duplicate_list = []
